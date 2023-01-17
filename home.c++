@@ -52,7 +52,7 @@ switch(choice)
             cout<<"\n\n\t\t"<<quant<<"rooms have been booked for you" ;
 
         }
-        else{
+        else
             cout<<"\n\tOnly"<<Qrooms-Srooms<<"Rooms remaning in hotel ";
             break;
 
@@ -67,8 +67,9 @@ switch(choice)
             cout<<"\n\n\t\t"<<quant<<"You have order Pasta " ;
 
         }
-        else{
-            cout<<"\n\tOnly"<<Qpasta-Spasta<<"Pasta remaining in hotel ";
+        else
+        
+            cout<<"\n\tOnly"<<Qpasta-Spasta<<"Pastas remaining in hotel ";
             break;
 
              case 3:
@@ -79,14 +80,15 @@ switch(choice)
         {
             Sburger=Sburger=quant;
             Total_burger Total_burger+quant*125);
-            cout<<"\n\n\t\t"<<quant<<"You have order burger " 
+            cout<<"\n\n\t\t"<<quant<<"You have order burger " ;
 
         }
-        else{
-            cout<<"\n\tOnly"<<Qburger-Sburger<<"Burger remaining in hotel ";
+        else
+        
+            cout<<"\n\tOnly"<<Qburger-Sburger<<"Burgers remaining in hotel ";
             break;
 
-        }
+        
             case 4:
         cout<<"\n\n Enter Noodles Quantity :";
 
@@ -95,41 +97,44 @@ switch(choice)
         {
             Snoodle=Snoodle=quant;
             Total_noodle Total_noodle+quant*125);
-            cout<<"\n\n\t\t"<<quant<<"You have ordernoodle " 
+            cout<<"\n\n\t\t"<<quant<<"You have ordernoodle " ;
 
         }
-        else{
-            cout<<"\n\tOnly"<<Qnoodle-Snoodle<<"noodle remaining in hotel ";
+        else
+        
+            cout<<"\n\tOnly"<<Qnoodle-Snoodle<<"noodles remaining in hotel ";
             break;
 
             case 5:
         cout<<"\n\n Enter Shakes Quantity :";
 
         cin>>quant;
-        if(Qshake-shake >=quant)
+        if(Qshake-Sshake >=quant)
         {
             Sshake=Sshake=quant;
             Total_shake Total_shake+quant*75);
-            cout<<"\n\n\t\t"<<quant<<"You have order shake " 
+            cout<<"\n\n\t\t"<<quant<<"You have order shake " ;
 
         }
-        else{
-            cout<<"\n\tOnly"<<Qshake-Sshake<<"shake remaining in hotel ";
+        else
+            cout<<"\n\tOnly"<<Qshake-Sshake<<"shakes remaining in hotel ";
             break;
-}
 
+            case 6:
+        cout<<"\n\n Enter Chicken Quantity :";
 
+        cin>>quant;
+        if(Qchicken-Schickene >=quant)
+        {
+            Schicken=Schicken=quant;
+            Total_chicken Total_chicken+quant*75);
+            cout<<"\n\n\t\t"<<quant<<"You have order chicken " ;
 
-
-
-
-
-
-
-
-
-
-
+        }
+        else
+            cout<<"\n\tOnly"<<Qchicken-Schicken<<"chickens remaining in hotel ";
+            break;
+    }
 }
 
 
