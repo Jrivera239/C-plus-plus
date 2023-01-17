@@ -39,7 +39,84 @@ cout<< "\n8) Exit";
 cout<<"\n\n Please Enter Your Choice! ";
 cin>>choice;
 
+switch(choice)
+{
+    case 1:
+        cout<<"\n\n Enter the number of rooms you need: ";
 
+        cin>>quant;
+        if(Qrooms-Srooms >=quant)
+        {
+            Srooms=Srooms=quant;
+            Total_room= Total_room+quant*1200);
+            cout<<"\n\n\t\t"<<quant<<"rooms have been booked for you" ;
+
+        }
+        else{
+            cout<<"\n\tOnly"<<Qrooms-Srooms<<"Rooms remaning in hotel ";
+            break;
+
+             case 2:
+        cout<<"\n\n Enter Pasta Quantity :";
+
+        cin>>quant;
+        if(Qpasta-Spasta >=quant)
+        {
+            Spasta=Spasta=quant;
+            Total_pasta= Total_pasta+quant*200);
+            cout<<"\n\n\t\t"<<quant<<"You have order Pasta " ;
+
+        }
+        else{
+            cout<<"\n\tOnly"<<Qpasta-Spasta<<"Pasta remaining in hotel ";
+            break;
+
+             case 3:
+        cout<<"\n\n Enter Burger Quantity :";
+
+        cin>>quant;
+        if(Qburger-Sburger >=quant)
+        {
+            Sburger=Sburger=quant;
+            Total_burger Total_burger+quant*125);
+            cout<<"\n\n\t\t"<<quant<<"You have order burger " 
+
+        }
+        else{
+            cout<<"\n\tOnly"<<Qburger-Sburger<<"Burger remaining in hotel ";
+            break;
+
+        }
+            case 4:
+        cout<<"\n\n Enter Noodles Quantity :";
+
+        cin>>quant;
+        if(Qnoodle-Snoodle >=quant)
+        {
+            Snoodle=Snoodle=quant;
+            Total_noodle Total_noodle+quant*125);
+            cout<<"\n\n\t\t"<<quant<<"You have ordernoodle " 
+
+        }
+        else{
+            cout<<"\n\tOnly"<<Qnoodle-Snoodle<<"noodle remaining in hotel ";
+            break;
+
+            case 5:
+        cout<<"\n\n Enter Shakes Quantity :";
+
+        cin>>quant;
+        if(Qshake-shake >=quant)
+        {
+            Sshake=Sshake=quant;
+            Total_shake Total_shake+quant*75);
+            cout<<"\n\n\t\t"<<quant<<"You have order shake " 
+
+        }
+        else{
+            cout<<"\n\tOnly"<<Qshake-Sshake<<"shake remaining in hotel ";
+            break;
+}
 
 
 
