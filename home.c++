@@ -26,6 +26,33 @@ cin>>Qshake;
 cout<<"\n Quantity of chicken :";
 cin>>Qchicken;
 
+cout<<"\n\t\t\t Please select from the menu options ";
+cout<<"\n\n1) Rooms";
+cout<<"\n2) Pasta";
+cout<<"\n3) burger";
+cout<<"\n4) noodles";
+cout<<"\n4) shake";
+cout<<"\n5) chicken";
+cout<<"\n7) Information regarding sales and collection ";
+cout<< "\n8) Exit";
+
+cout<<"\n\n Please Enter Your Choice! ";
+cin>>choice;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
