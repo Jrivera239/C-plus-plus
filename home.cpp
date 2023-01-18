@@ -49,7 +49,7 @@ switch(choice)
         if(Qrooms-Srooms >=quant)
         {
             Srooms=Srooms=quant;
-            Total_rooms= Total_rooms+quant*1200);
+            Total_rooms= Total_rooms+quant*1200;
             cout<<"\n\n\t\t"<<quant<<"rooms have been booked for you" ;
 
         }
@@ -65,7 +65,7 @@ switch(choice)
         if(Qpasta-Spasta >=quant)
         {
             Spasta=Spasta=quant;
-            Total_pasta= Total_pasta+quant*200);
+            Total_pasta= Total_pasta+quant*200;
             cout<<"\n\n\t\t"<<quant<<"You have order Pasta " ;
 
         }
@@ -82,7 +82,7 @@ switch(choice)
         if(Qburger-Sburger >=quant)
         {
             Sburger=Sburger=quant;
-            Total_burger= Total_burger+quant*125);
+            Total_burger= Total_burger+quant*125;
             cout<<"\n\n\t\t"<<quant<<"You have order burger " ;
 
         }
@@ -100,7 +100,7 @@ switch(choice)
         if(Qnoodle-Snoodle >=quant)
         {
             Snoodle=Snoodle=quant;
-            Total_noodle= Total_noodle+quant*125);
+            Total_noodle= Total_noodle+quant*125;
             cout<<"\n\n\t\t"<<quant<<"You have ordernoodle " ;
 
         }
@@ -117,7 +117,7 @@ switch(choice)
         if(Qshake-Sshake >=quant)
         {
             Sshake=Sshake=quant;
-            Total_shake= Total_shake+quant*75);
+            Total_shake= Total_shake+quant*75;
             cout<<"\n\n\t\t"<<quant<<"You have order shake " ;
 
         }
@@ -133,7 +133,7 @@ switch(choice)
         if(Qchicken-Schicken >=quant)
         {
             Schicken=Schicken=quant;
-            Total_chicken= Total_chicken+quant*95);
+            Total_chicken= Total_chicken+quant*95;
             cout<<"\n\n\t\t"<<quant<<"You have order chicken " ;
 
         }
