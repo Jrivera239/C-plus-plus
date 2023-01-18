@@ -54,9 +54,10 @@ switch(choice)
         }
         else
             cout<<"\n\tOnly"<<Qrooms-Srooms<<"Rooms remaning in hotel ";
+
             break;
 
-             case 2:
+    case 2:
         cout<<"\n\n Enter Pasta Quantity :";
 
         cin>>quant;
@@ -70,9 +71,10 @@ switch(choice)
         else
         
             cout<<"\n\tOnly"<<Qpasta-Spasta<<"Pastas remaining in hotel ";
+
             break;
 
-             case 3:
+    case 3:
         cout<<"\n\n Enter Burger Quantity :";
 
         cin>>quant;
@@ -86,10 +88,11 @@ switch(choice)
         else
         
             cout<<"\n\tOnly"<<Qburger-Sburger<<"Burgers remaining in hotel ";
+
             break;
 
         
-            case 4:
+    case 4:
         cout<<"\n\n Enter Noodles Quantity :";
 
         cin>>quant;
@@ -103,9 +106,10 @@ switch(choice)
         else
         
             cout<<"\n\tOnly"<<Qnoodle-Snoodle<<"noodles remaining in hotel ";
+
             break;
 
-            case 5:
+    case 5:
         cout<<"\n\n Enter Shakes Quantity :";
 
         cin>>quant;
@@ -118,22 +122,58 @@ switch(choice)
         }
         else
             cout<<"\n\tOnly"<<Qshake-Sshake<<"shakes remaining in hotel ";
+
             break;
 
-            case 6:
+    case 6:
         cout<<"\n\n Enter Chicken Quantity :";
 
         cin>>quant;
         if(Qchicken-Schickene >=quant)
         {
             Schicken=Schicken=quant;
-            Total_chicken Total_chicken+quant*75);
+            Total_chicken Total_chicken+quant*95);
             cout<<"\n\n\t\t"<<quant<<"You have order chicken " ;
 
         }
         else
             cout<<"\n\tOnly"<<Qchicken-Schicken<<"chickens remaining in hotel ";
+
             break;
+
+        case 7:
+
+        cout<<"\n\t\tDetails of daily sales Collection ";
+        cout<<"\n\n Number of rooms available : "<<Qrooms;
+        cout<<"\n\n Number of rooms rented "<<Srooms;
+        cout<<"\n\n Remaining rooms : "<<Qrooms-Srooms;
+        cout<<"\n\n Total rooms collection for the day :"<<Total_rooms;
+
+        cout<<"\n\n Number of Pastas available : "<<Qpastas;
+        cout<<"\n\n Number of Pastas rented "<<Spastas;
+        cout<<"\n\n Remaining Pastas : "<<Qpastas-Spastas;
+        cout<<"\n\n Total Pastas collection for the day :"<<Total_pastas;
+
+        cout<<"\n\n Number of Burgers available : "<<Qrburger;
+        cout<<"\n\n Number of burgers rented "<<Sburger;
+        cout<<"\n\n Remaining burgers : "<<Qburger-Sburger;
+        cout<<"\n\n Total burgers collection for the day :"<<Total_burger;
+        
+        cout<<"\n\n Number of noodles available : "<<Qnoodles;
+        cout<<"\n\n Number of noodles rented "<<Snoodles;
+        cout<<"\n\n Remaining noodles : "<<Qnoodles-Snoodles;
+        cout<<"\n\n Total noodles collection for the day :"<<Total_noodles
+
+        cout<<"\n\n Number of shakes available : "<<Qshake;
+        cout<<"\n\n Number of shake rented "<<Sshake;
+        cout<<"\n\n Remaining shake : "<<Qshake-Sshake;
+        cout<<"\n\n Total shake collection for the day :"<<Total_shake;
+
+        cout<<"\n\n Number of rooms available : "<<Qrooms;
+        cout<<"\n\n Number of rooms rented "<<Srooms;
+        cout<<"\n\n Remaining rooms : "<<Qrooms-Srooms;
+        cout<<"\n\n Total rooms collection for the day :"<<Total_rooms;
+
     }
 }
 
