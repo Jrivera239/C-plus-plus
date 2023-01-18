@@ -6,26 +6,27 @@ int main()
     int quant;
     int choice;
 //quantity
-    int Qrooms=0, Qpasta=0, Qburger=0, Qnoodles=0, Qshake=0, Qchicken=0;
+    int Qrooms=0, Qpasta=0, Qburger=0, Qnoodle=0, Qshake=0, Qchicken=0;
 //food items sold
-    int Srooms=0; Spasta=0, Sburger=0, Snoodles=0, Sshake=0, Schicken=0;
+    int Srooms=0; Spasta=0, Sburger=0, Snoodle=0, Sshake=0, Schicken=0;
 //total price of items
-    int Total_rooms=0, Total_pasta=0, Total_burger=0, Total_noodles=0, Total_shake=0, Total_chicken=0;
+    int Total_rooms=0, Total_pasta=0, Total_burger=0, Total_noodle=0, Total_shake=0, Total_chicken=0;
 
 cout<<"\n\t Quantity of items we have";
-cout <<"\n Rooms available :";
+cout<<"\n Rooms available :";
 cin>>Qrooms;
 cout<<"\n Quantity of pasta :";
 cin>>Qpasta;
 cout<<"\n Quantity of burger :";
 cin>>Qburger;
 cout<<"\n Quantity of noodles :";
-cin>>Qnoodles;
+cin>>Qnoodle;
 cout<<"\n Quantity of shake :";
 cin>>Qshake;
 cout<<"\n Quantity of chicken :";
 cin>>Qchicken;
 
+m:
 cout<<"\n\t\t\t Please select from the menu options ";
 cout<<"\n\n1) Rooms";
 cout<<"\n2) Pasta";
@@ -48,7 +49,7 @@ switch(choice)
         if(Qrooms-Srooms >=quant)
         {
             Srooms=Srooms=quant;
-            Total_room= Total_room+quant*1200);
+            Total_rooms= Total_rooms+quant*1200);
             cout<<"\n\n\t\t"<<quant<<"rooms have been booked for you" ;
 
         }
@@ -81,7 +82,7 @@ switch(choice)
         if(Qburger-Sburger >=quant)
         {
             Sburger=Sburger=quant;
-            Total_burger Total_burger+quant*125);
+            Total_burger= Total_burger+quant*125);
             cout<<"\n\n\t\t"<<quant<<"You have order burger " ;
 
         }
@@ -99,7 +100,7 @@ switch(choice)
         if(Qnoodle-Snoodle >=quant)
         {
             Snoodle=Snoodle=quant;
-            Total_noodle Total_noodle+quant*125);
+            Total_noodle= Total_noodle+quant*125);
             cout<<"\n\n\t\t"<<quant<<"You have ordernoodle " ;
 
         }
@@ -116,7 +117,7 @@ switch(choice)
         if(Qshake-Sshake >=quant)
         {
             Sshake=Sshake=quant;
-            Total_shake Total_shake+quant*75);
+            Total_shake= Total_shake+quant*75);
             cout<<"\n\n\t\t"<<quant<<"You have order shake " ;
 
         }
@@ -129,10 +130,10 @@ switch(choice)
         cout<<"\n\n Enter Chicken Quantity :";
 
         cin>>quant;
-        if(Qchicken-Schickene >=quant)
+        if(Qchicken-Schicken >=quant)
         {
             Schicken=Schicken=quant;
-            Total_chicken Total_chicken+quant*95);
+            Total_chicken= Total_chicken+quant*95);
             cout<<"\n\n\t\t"<<quant<<"You have order chicken " ;
 
         }
@@ -149,32 +150,37 @@ switch(choice)
         cout<<"\n\n Remaining rooms : "<<Qrooms-Srooms;
         cout<<"\n\n Total rooms collection for the day :"<<Total_rooms;
 
-        cout<<"\n\n Number of Pastas available : "<<Qpastas;
-        cout<<"\n\n Number of Pastas rented "<<Spastas;
-        cout<<"\n\n Remaining Pastas : "<<Qpastas-Spastas;
-        cout<<"\n\n Total Pastas collection for the day :"<<Total_pastas;
+        cout<<"\n\n Number of Pastas available : "<<Qpasta;
+        cout<<"\n\n Number of Pastas rented "<<Spasta;
+        cout<<"\n\n Remaining Pastas : "<<Qpasta-Spasta;
+        cout<<"\n\n Total Pastas collection for the day :"<<Total_pasta;
 
-        cout<<"\n\n Number of Burgers available : "<<Qrburger;
+        cout<<"\n\n Number of Burgers available : "<<Qburger;
         cout<<"\n\n Number of burgers rented "<<Sburger;
         cout<<"\n\n Remaining burgers : "<<Qburger-Sburger;
         cout<<"\n\n Total burgers collection for the day :"<<Total_burger;
         
-        cout<<"\n\n Number of noodles available : "<<Qnoodles;
-        cout<<"\n\n Number of noodles rented "<<Snoodles;
-        cout<<"\n\n Remaining noodles : "<<Qnoodles-Snoodles;
-        cout<<"\n\n Total noodles collection for the day :"<<Total_noodles
+        cout<<"\n\n Number of noodles available : "<<Qnoodle;
+        cout<<"\n\n Number of noodles rented "<<Snoodle;
+        cout<<"\n\n Remaining noodles : "<<Qnoodle-Snoodle;
+        cout<<"\n\n Total noodles collection for the day :"<<Total_noodle ;
 
         cout<<"\n\n Number of shakes available : "<<Qshake;
         cout<<"\n\n Number of shake rented "<<Sshake;
         cout<<"\n\n Remaining shake : "<<Qshake-Sshake;
         cout<<"\n\n Total shake collection for the day :"<<Total_shake;
 
-        cout<<"\n\n Number of rooms available : "<<Qrooms;
-        cout<<"\n\n Number of rooms rented "<<Srooms;
-        cout<<"\n\n Remaining rooms : "<<Qrooms-Srooms;
-        cout<<"\n\n Total rooms collection for the day :"<<Total_rooms;
+        cout<<"\n\n Number of chicken available : "<<Qchicken;
+        cout<<"\n\n Number of chicken rented "<<Schicken;
+        cout<<"\n\n Remaining chicken : "<<Qchicken-Schicken;
+        cout<<"\n\n Total chicken collection for the day :"<<Total_chicken;
 
+        case 8:
+            exit(0);
+            default:
+                count<<"\n Please select any number from above."
     }
+    goto m;
 }
 
 
