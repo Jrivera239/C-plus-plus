@@ -11,7 +11,6 @@ int main(){
 std:: cout <<"Value : " << std::endl;
 return 0;
 
-
 }
 
 
