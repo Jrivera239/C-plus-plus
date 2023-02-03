@@ -53,10 +53,10 @@ void login (){
     int cout;
     string userId, password, id, pass;
     system("cls");
-    cout<<"\t\t\t Please enter the username and password : "<<endl;
+    cout<< "\t\t\t Please enter the username and password : "<<endl;
     cin>>userId;
-    cout<<"\t\t\t Password ";
-    cin>>password;
+    cout<< "\t\t\t Password ";
+    cin>> password;
 
 
 }
