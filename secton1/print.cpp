@@ -37,9 +37,9 @@ int x;
 std::cout << "Enter your current earth weight: " ;
 std::cin >> weight;
 
-std::cout << "\nI have information for he following planets:\n\n";
+std::cout << "\nI have information for he following planets:\n";
 std::cout << " 1. Venus   2. Mars    3. Jupiter \n";
-std::cout << " 4. Saturn  5. Uranus  6. Neptune\n\n";
+std::cout << " \n4. Saturn  5. Uranus  6. Neptune\n";
 std::cout << "which planet are you visiting from";
 std::cin >> x;
 
